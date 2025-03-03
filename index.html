@@ -103,8 +103,24 @@
         <img src="https://raw.githubusercontent.com/FrogOracleX/frog-website/main/photo_frog.jpg" alt="$FROG Logo" class="logo">
         <h1>🐸 WELCOME TO $FROG 🐸</h1>
         <p>The most degenerate frog room on Solana. Join the movement before it's too late.</p>
-        <a href="https://pump.fun" class="cta">BUY $FROG NOW(CA comming soon)</a>
+        <div class="section">
+    <h2>📜 Contract Address</h2>
+    <p>Here is the official contract address for $FROG. Always verify before trading.</p>
+    <div class="contract-address">
+        <span id="frog-ca">DucsavC7fHdgAfCkRtYKYBasZaPVd3RwVLdBADK9pump</span>
+        <button onclick="copyToClipboard()">📋 Copy</button>
     </div>
+</div>
+
+<script>
+    function copyToClipboard() {
+        var text = document.getElementById("frog-ca").innerText;
+        navigator.clipboard.writeText(text);
+        alert("Contract Address copied!");
+    }
+</script>
+
+        
 
     <div class="section">
     <h2>🤔 WHY $FROG ?</h2>
