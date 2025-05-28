@@ -1,50 +1,85 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accès Groupe Snap +18</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Groupe Snap +18</title>
   <style>
     body {
       margin: 0;
-      height: 100vh;
-      background: linear-gradient(135deg, #2a003f, #5b00a7);
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      padding: 0;
       font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(circle at center, #2a003f, #000000);
       color: white;
-    }
-    .container {
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
     }
+
+    .logo {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #ff00d4;
+      text-shadow: 0 0 15px #ff00d4;
+      margin-bottom: 20px;
+    }
+
     .btn {
-      display: block;
-      margin: 15px auto;
-      padding: 15px 30px;
       background-color: #ff00d4;
-      border: none;
-      border-radius: 10px;
       color: white;
-      font-size: 18px;
+      border: none;
+      border-radius: 30px;
+      padding: 15px 30px;
+      margin: 10px;
+      font-size: 1.2em;
       cursor: pointer;
-      transition: 0.3s;
       text-decoration: none;
+      display: inline-block;
+      box-shadow: 0 0 15px #ff00d4;
+      transition: all 0.3s ease;
     }
+
     .btn:hover {
       background-color: #ff33e1;
     }
-    h1 {
-      margin-bottom: 30px;
-      font-size: 28px;
+
+    .description {
+      font-size: 1em;
+      max-width: 90%;
+      margin: 20px auto;
+      color: #ddd;
+    }
+
+    .notif {
+      margin-top: 30px;
+      width: 90%;
+      max-width: 400px;
+      text-align: left;
+    }
+
+    .notif-item {
+      background: #7a00cc;
+      border-radius: 20px;
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      color: white;
+      font-size: 0.95em;
+      box-shadow: 0 0 10px #7a00cc;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>🔥 Rejoindre le groupe Snap 🔥</h1>
-    <a href="https://buy.stripe.com/bJeaEW7iR0Xo2MR0MGcIE00" class="btn">Accès à vie – 25 €</a>
-    <a href="https://buy.stripe.com/8x24gyfPnaxY5Z38f8cIE02" class="btn">1 mois d’essai – 9 €</a>
+  <div class="logo">Groupe<span style="color:#00bfff;">Snap</span>👻</div>
+  <a href="https://buy.stripe.com/bJeaEW7iR0Xo2MR0MGcIE00" class="btn">👻 Accéder aux groupes Snap +18</a>
+  <div class="description">
+    Accès réservé aux adultes. Rejoins des groupes Snap privés avec du contenu exclusif +18.
+  </div>
+  <div class="notif">
+    <div class="notif-item">👨‍🦱 Liam (Cholet) a rejoint les groupes Snap +18</div>
+    <div class="notif-item">👩 Maé (Colmar) a rejoint les groupes Snap +18</div>
   </div>
 </body>
 </html>
